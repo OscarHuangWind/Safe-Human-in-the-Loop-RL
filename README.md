@@ -11,7 +11,15 @@ Email: wenhui001@e.ntu.edu.sg
 # Framework
 
 <p align="center">
-<img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/framework_00.png" height= 450, width="720">
+<img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/framework.png" height= "450" width="720">
+</p>
+
+# FPDF
+<p float="left">
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_scenarios.png" height= "160" />
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_bound.png" height= "160" /> 
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_obstacle.png" height= "160" />
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_final.png" height= "160" />
 </p>
 
 # How to use
@@ -80,6 +88,7 @@ Edit the mode in config.yaml as evaluation and run:
 ```
 python main.py
 ```
+
 
 
 
