@@ -1,0 +1,69 @@
+##### SaHiL-RL Config #####
+---
+##### DRL #####
+mode : 'train'
+ACTOR_TYPE : 'Gaussian'
+CRITIC_TYPE : 'CNN'
+THRESHOLD : 20
+TARGET_UPDATE : 1
+BATCH_SIZE : 32
+GAMMA : 0.99
+MEMORY_CAPACITY : 20000
+LR_ACTOR : 0.00025
+LR_CRITIC : 0.00025
+TAU : 0.005
+FRAME_HISTORY_LEN : 4
+MAX_NUM_EPOC : 820
+MAX_NUM_STEPS : 300
+PLOT_INTERVAL : 10
+SAVE_INTERVAL : 20
+EVALUATION_EPOC : 10
+
+##### Entropy #####
+ENTROPY : True
+ALPHA : 1.0
+LR_ALPHA : 0.0005
+
+##### Environment ######
+AGENT_ID : ''
+env_name : 'highway'
+screen_size : 100
+view : 50
+
+##### Algo ######
+SaHiL:
+    name : 'sahil'
+    POLICY_GUIDANCE : True
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : True
+    ADAPTIVE_CONFIDENCE : True
+    SHARED_CONTROL : True
+    CONTINUAL_THRESHOLD : 200
+    INTERMITTENT_THRESHOLD: 400
+
+PHIL:
+    name : 'phil'
+    POLICY_GUIDANCE : True
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : True
+    ADAPTIVE_CONFIDENCE : False
+    SHARED_CONTROL : False
+    CONTINUAL_THRESHOLD : 200
+    INTERMITTENT_THRESHOLD: 400
+    
+HIRL:
+    name : 'hirl'
+    POLICY_GUIDANCE : False
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : True
+    ADAPTIVE_CONFIDENCE : True
+    SHARED_CONTROL : False
+    CONTINUAL_THRESHOLD : 200
+    INTERMITTENT_THRESHOLD: 400
+
+SAC:
+    name : 'sac_speed'
+    POLICY_GUIDANCE : False
+    VALUE_GUIDANCE : False
+    PENALTY_GUIDANCE : False
+    ADAPTIVE_CONFIDENCE : False
