@@ -1,4 +1,18 @@
 # Human-in-the-loop-RL
+This repository contains the illustrative diagrams and demonstration videos of the proposed approach called **safety-aware human-in-the-loop reinforcement learning (SaHiL-RL)**. 
+
+
+:dog: We will publish the source code once the paper is accepted. 
+
+:beer: Prior to this, we are more than happy to discuss the details of our algorithm if you are interested. Please feel free to contact us without any hesitation.
+
+Email: wenhui001@e.ntu.edu.sg
+
+# Framework
+
+<p align="center">
+<img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/framework_00.png" height= 450, width="720">
+</p>
 
 # How to use
 
