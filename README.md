@@ -14,7 +14,7 @@ Email: wenhui001@e.ntu.edu.sg
 <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/framework.png" height= "450" width="720">
 </p>
 
-# FPDF
+# Frenet-based Dynamic Potential Field (FDPF)
 <p float="left">
   <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_scenarios.png" height= "140" />
   <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_bound.png" height= "140" /> 
