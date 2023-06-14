@@ -22,7 +22,7 @@ Email: wenhui001@e.ntu.edu.sg
   <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_final.png" height= "140" />
 </p>
 
-# Demonstration
+# Demonstration (accelerated videos)
 
 ## Lane-change Performance
 https://github.com/OscarHuangWind/Human-in-the-loop-RL/assets/41904672/690b4b44-ac57-4ce1-890b-57ac125cef63
