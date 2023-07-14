@@ -1,4 +1,4 @@
-# Safe Human-in-the-loop RL (SaHiL-RL) for End-to-End Autonomous Driving
+# Safe Human-in-the-loop RL (SaHiL-RL) with Shared Control for End-to-End Autonomous Driving
 This repository contains the illustrative diagrams and demonstration videos of the proposed approach called **safety-aware human-in-the-loop reinforcement learning (SaHiL-RL)**. 
 
 
@@ -11,7 +11,7 @@ Email: wenhui001@e.ntu.edu.sg
 # Framework
 
 <p align="center">
-<img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/framework.png" height= "450" width="720">
+<img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/framework.png" height= "450" width="900">
 </p>
 
 # Frenet-based Dynamic Potential Field (FDPF)
