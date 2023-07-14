@@ -1,8 +1,8 @@
-# Human-in-the-loop-RL
+# Safe Human-in-the-loop RL (SaHiL-RL) for End-to-End Autonomous Driving
 This repository contains the illustrative diagrams and demonstration videos of the proposed approach called **safety-aware human-in-the-loop reinforcement learning (SaHiL-RL)**. 
 
 
-:dog: We will publish the source code once the paper is accepted. 
+:hourglass_flowing_sand: We will publish the source code once the paper is accepted. 
 
 :beer: Prior to this, we are more than happy to discuss the details of our algorithm if you are interested. Please feel free to contact us without any hesitation.
 
@@ -14,13 +14,24 @@ Email: wenhui001@e.ntu.edu.sg
 <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/framework.png" height= "450" width="720">
 </p>
 
-# FPDF
+# Frenet-based Dynamic Potential Field (FDPF)
 <p float="left">
-  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_scenarios.png" height= "160" />
-  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_bound.png" height= "160" /> 
-  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_obstacle.png" height= "160" />
-  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_final.png" height= "160" />
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_scenarios.png" height= "140" />
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_bound.png" height= "140" /> 
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_obstacle.png" height= "140" />
+  <img src="https://github.com/OscarHuangWind/Human-in-the-loop-RL/blob/master/presentation/FDPF_final.png" height= "140" />
 </p>
+
+# Demonstration (accelerated videos)
+
+## Lane-change Performance
+https://github.com/OscarHuangWind/Human-in-the-loop-RL/assets/41904672/690b4b44-ac57-4ce1-890b-57ac125cef63
+## Uncooperative Road User
+https://github.com/OscarHuangWind/Human-in-the-loop-RL/assets/41904672/52b2ec4b-8cd4-4b9d-a3a9-70bbd3b77157
+## Cooperative Road User
+https://github.com/OscarHuangWind/Human-in-the-loop-RL/assets/41904672/02f95274-80cc-4e6b-8a5b-edfcbbd4d0a6
+## Unobserved Road Structure
+https://github.com/OscarHuangWind/Human-in-the-loop-RL/assets/41904672/bb493f9c-d2c9-4db5-b034-ad456ef96c8a
 
 # How to use
 
@@ -63,12 +74,13 @@ bash utils/setup/install_deps.sh
 # Install smarts.
 pip install -e '.[camera_obs,test,train]'
 
-# Install keyborad dependencies.
+# Install extra dependencies.
 pip install -e .[extras]
 ```
 
 ## Build the scenario.
 ```
+cd <path/to/Human-in-the-loop-RL>
 scl scenario build --clean scenario/straight_with_left_turn/
 ```
 
