@@ -1,3 +1,6 @@
+# :tada: _T-ITS ACCEPTED!_ :confetti_ball:
+# We will release the source code in near future!
+
 # Safe Human-in-the-loop RL (SaHiL-RL) with Shared Control for End-to-End Autonomous Driving
 This repository contains the illustrative diagrams and demonstration videos of the proposed approach called **safety-aware human-in-the-loop reinforcement learning (SaHiL-RL)**. 
 
