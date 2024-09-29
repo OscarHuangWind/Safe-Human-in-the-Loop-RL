@@ -1,14 +1,15 @@
 # :tada: _T-ITS ACCEPTED!_ :confetti_ball:
 # We will release the source code in near future!
 
-### [[**T-ITS**]](https://ieeexplore.ieee.org/document/10596046) | [[**Pre-print**]](https://www.researchgate.net/publication/382212078_Safety-Aware_Human-in-the-Loop_Reinforcement_Learning_With_Shared_Control_for_Autonomous_Driving)
+### [[**T-ITS**]](https://ieeexplore.ieee.org/document/10596046) | [[**arXiv**]](https://www.researchgate.net/publication/382212078_Safety-Aware_Human-in-the-Loop_Reinforcement_Learning_With_Shared_Control_for_Autonomous_Driving)
 
-# Safe Human-in-the-loop RL (SaHiL-RL) with Shared Control for End-to-End Autonomous Driving
-This repository contains the illustrative diagrams and demonstration videos of the proposed approach called **safety-aware human-in-the-loop reinforcement learning (SaHiL-RL)**. 
+# :page_with_curl: Safe Human-in-the-loop RL (SafeHiL-RL) with Shared Control for End-to-End Autonomous Driving
 
-:hourglass_flowing_sand: We will publish the source code once the paper is accepted. 
+:dizzy: As a **_pioneering work considering guidance safety_** within the human-in-the-loop RL paradigm, this work introduces a **_curriculum guidance_** mechanism inspired by the pedagogical principle of whole-to-part patterns in human education, aiming to standardize the intervention process of human participants.
 
-:beer: Prior to this, we are more than happy to discuss the details of our algorithm if you are interested. Please feel free to contact us without any hesitation.
+:red_car: SafeHil-RL is designed to prevent *__policy oscillations or divergence_** caused by **_inappropriate or degraded human guidance_** during interventions using the **_human-AI shared autonomy_** technique, thereby improving learning efficiency, robustness, and driving safety.
+
+:wrench: Realized in SMARTS simulator with Ubuntu 20.04 and Pytorch. 
 
 Email: wenhui001@e.ntu.edu.sg
 
@@ -37,26 +38,23 @@ https://github.com/OscarHuangWind/Human-in-the-loop-RL/assets/41904672/02f95274-
 ## Unobserved Road Structure
 https://github.com/OscarHuangWind/Human-in-the-loop-RL/assets/41904672/bb493f9c-d2c9-4db5-b034-ad456ef96c8a
 
-# How to use
+# User Guide
+
+## Clone the repository.
+cd to your workspace and clone the repo.
+```
+git clone https://github.com/OscarHuangWind/Safe-Human-in-the-Loop-RL.git
+```
 
 ## Create a new Conda environment.
-Specify your own name for the virtual environment, e.g., hil-rl:
+cd to your workspace:
 ```
-conda create -n hil-rl python=3.7
+conda env create -f environment.yml
 ```
 
 ## Activate virtual environment.
 ```
-conda activate hil-rl
-```
-
-## Install Dependencies.
-```
-conda install gym==0.19.0
-```
-
-```
-pip install cpprb tqdm pyyaml scipy matplotlib pandas casadi
+conda activate safehil-rl
 ```
 
 ## Install Pytorch
@@ -65,12 +63,16 @@ Select the correct version based on your cuda version and device (cpu/gpu):
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 
-
 ## Install the SMARTS.
 ```
 # Download SMARTS
+
 git clone https://github.com/huawei-noah/SMARTS.git
+
 cd <path/to/SMARTS>
+
+# Important! Checkout to comp-1 branch
+git checkout comp-1
 
 # Install the system requirements.
 bash utils/setup/install_deps.sh
@@ -84,8 +86,8 @@ pip install -e .[extras]
 
 ## Build the scenario.
 ```
-cd <path/to/Human-in-the-loop-RL>
-scl scenario build --clean scenario/straight_with_left_turn/
+cd <path/to/Safe-Human-in-the-loop-RL>
+scl scenario build --clean scenario/straight/
 ```
 
 ## Visulazation
@@ -95,9 +97,21 @@ scl envision start
 Then go to http://localhost:8081/
 
 ## Training
+Modify the sys path in **main.py** file, and run:
 ```
 python main.py
 ```
+
+## Human Guidance
+Change the model in **main.py** file to SaHiL/PHIL/HIRL, and run:
+```
+python main.py
+```
+Check the code in keyboard.py to get idea of keyboard control.
+
+Alternatively, you can use G29 set to intervene the vehicle control, check the lines from 177 to 191 in main.py file for the details.
+
+The "Egocentric View" is recommended for the human guidance.
 
 ## Evaluation
 Edit the mode in config.yaml as evaluation and run:
