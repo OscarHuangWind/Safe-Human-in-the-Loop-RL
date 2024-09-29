@@ -1,0 +1,126 @@
+Collecting pathos==0.2.8
+  Using cached pathos-0.2.8-py2.py3-none-any.whl (81 kB)
+Collecting tabulate
+  Using cached tabulate-0.9.0-py3-none-any.whl (35 kB)
+Collecting waymo-open-dataset-tf-2-4-0
+  Using cached waymo_open_dataset_tf_2_4_0-1.4.1-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (3.1 MB)
+Requirement already satisfied: dill>=0.3.4 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from pathos==0.2.8) (0.3.6)
+Collecting multiprocess>=0.70.12 (from pathos==0.2.8)
+  Using cached multiprocess-0.70.15-py37-none-any.whl (116 kB)
+Collecting pox>=0.3.0 (from pathos==0.2.8)
+  Using cached pox-0.3.3-py3-none-any.whl (29 kB)
+Collecting ppft>=1.6.6.4 (from pathos==0.2.8)
+  Using cached ppft-1.7.6.7-py3-none-any.whl (56 kB)
+Collecting tensorflow==2.4.0 (from waymo-open-dataset-tf-2-4-0)
+  Using cached tensorflow-2.4.0-cp37-cp37m-manylinux2010_x86_64.whl (394.7 MB)
+Collecting absl-py~=0.10 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached absl_py-0.15.0-py3-none-any.whl (132 kB)
+Requirement already satisfied: astunparse~=1.6.3 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (1.6.3)
+Collecting flatbuffers~=1.12.0 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached flatbuffers-1.12-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: google-pasta~=0.2 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (0.2.0)
+Collecting h5py~=2.10.0 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached h5py-2.10.0-cp37-cp37m-manylinux1_x86_64.whl (2.9 MB)
+Collecting keras-preprocessing~=1.1.2 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)
+Collecting numpy~=1.19.2 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Downloading numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl (14.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.8/14.8 MB 10.9 MB/s eta 0:00:00
+Requirement already satisfied: opt-einsum~=3.3.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (3.3.0)
+Requirement already satisfied: protobuf>=3.9.2 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (3.19.6)
+Collecting six~=1.15.0 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting termcolor~=1.1.0 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached termcolor-1.1.0.tar.gz (3.9 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting typing-extensions~=3.7.4 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Requirement already satisfied: wheel~=0.35 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (0.40.0)
+Requirement already satisfied: wrapt~=1.12.1 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (1.12.1)
+Collecting gast==0.3.3 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached gast-0.3.3-py2.py3-none-any.whl (9.7 kB)
+Requirement already satisfied: tensorboard~=2.4 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (2.11.2)
+Collecting tensorflow-estimator<2.5.0,>=2.4.0rc0 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached tensorflow_estimator-2.4.0-py2.py3-none-any.whl (462 kB)
+Collecting grpcio~=1.32.0 (from tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0)
+  Using cached grpcio-1.32.0-cp37-cp37m-manylinux2014_x86_64.whl (3.8 MB)
+Collecting dill>=0.3.4 (from pathos==0.2.8)
+  Using cached dill-0.3.7-py3-none-any.whl (115 kB)
+Requirement already satisfied: google-auth<3,>=1.6.3 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (2.19.1)
+Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (0.4.6)
+Requirement already satisfied: markdown>=2.6.8 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (3.4.3)
+Requirement already satisfied: requests<3,>=2.21.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (2.31.0)
+Requirement already satisfied: setuptools>=41.0.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (67.8.0)
+Requirement already satisfied: tensorboard-data-server<0.7.0,>=0.6.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (0.6.1)
+Requirement already satisfied: tensorboard-plugin-wit>=1.6.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (1.8.1)
+Requirement already satisfied: werkzeug>=1.0.1 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (2.2.3)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from google-auth<3,>=1.6.3->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (5.3.1)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from google-auth<3,>=1.6.3->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (0.3.0)
+Requirement already satisfied: rsa<5,>=3.1.4 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from google-auth<3,>=1.6.3->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (4.9)
+Requirement already satisfied: urllib3<2.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from google-auth<3,>=1.6.3->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (1.26.16)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (1.3.1)
+Requirement already satisfied: importlib-metadata>=4.4 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from markdown>=2.6.8->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (4.13.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (2023.5.7)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from werkzeug>=1.0.1->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (2.1.3)
+Requirement already satisfied: zipp>=0.5 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from importlib-metadata>=4.4->markdown>=2.6.8->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (3.15.0)
+Requirement already satisfied: pyasn1<0.6.0,>=0.4.6 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (0.5.0)
+Requirement already satisfied: oauthlib>=3.0.0 in /home/oscar/anaconda3/envs/hil-rl/lib/python3.7/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard~=2.4->tensorflow==2.4.0->waymo-open-dataset-tf-2-4-0) (3.2.2)
+Building wheels for collected packages: termcolor
+  Building wheel for termcolor (setup.py): started
+  Building wheel for termcolor (setup.py): finished with status 'done'
+  Created wheel for termcolor: filename=termcolor-1.1.0-py3-none-any.whl size=4832 sha256=ca2a2759910aa6d95e47b9518c0fbce4ad2d86fe02be9456cf47c8152d43fb0a
+  Stored in directory: /home/oscar/.cache/pip/wheels/3f/e3/ec/8a8336ff196023622fbcb36de0c5a5c218cbb24111d1d4c7f2
+Successfully built termcolor
+Installing collected packages: typing-extensions, termcolor, tensorflow-estimator, flatbuffers, tabulate, six, ppft, pox, numpy, gast, dill, multiprocess, keras-preprocessing, h5py, grpcio, absl-py, pathos, tensorflow, waymo-open-dataset-tf-2-4-0
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.6.3
+    Uninstalling typing_extensions-4.6.3:
+      Successfully uninstalled typing_extensions-4.6.3
+  Attempting uninstall: termcolor
+    Found existing installation: termcolor 2.3.0
+    Uninstalling termcolor-2.3.0:
+      Successfully uninstalled termcolor-2.3.0
+  Attempting uninstall: tensorflow-estimator
+    Found existing installation: tensorflow-estimator 2.11.0
+    Uninstalling tensorflow-estimator-2.11.0:
+      Successfully uninstalled tensorflow-estimator-2.11.0
+  Attempting uninstall: flatbuffers
+    Found existing installation: flatbuffers 23.5.26
+    Uninstalling flatbuffers-23.5.26:
+      Successfully uninstalled flatbuffers-23.5.26
+  Attempting uninstall: six
+    Found existing installation: six 1.16.0
+    Uninstalling six-1.16.0:
+      Successfully uninstalled six-1.16.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.6
+    Uninstalling numpy-1.21.6:
+      Successfully uninstalled numpy-1.21.6
+  Attempting uninstall: gast
+    Found existing installation: gast 0.4.0
+    Uninstalling gast-0.4.0:
+      Successfully uninstalled gast-0.4.0
+  Attempting uninstall: dill
+    Found existing installation: dill 0.3.6
+    Uninstalling dill-0.3.6:
+      Successfully uninstalled dill-0.3.6
+  Attempting uninstall: h5py
+    Found existing installation: h5py 3.8.0
+    Uninstalling h5py-3.8.0:
+      Successfully uninstalled h5py-3.8.0
+  Attempting uninstall: grpcio
+    Found existing installation: grpcio 1.54.2
+    Uninstalling grpcio-1.54.2:
+      Successfully uninstalled grpcio-1.54.2
+  Attempting uninstall: absl-py
+    Found existing installation: absl-py 1.4.0
+    Uninstalling absl-py-1.4.0:
+      Successfully uninstalled absl-py-1.4.0
+  Attempting uninstall: tensorflow
+    Found existing installation: tensorflow 2.11.0
+    Uninstalling tensorflow-2.11.0:
+      Successfully uninstalled tensorflow-2.11.0
+Successfully installed absl-py-0.15.0 dill-0.3.7 flatbuffers-1.12 gast-0.3.3 grpcio-1.32.0 h5py-2.10.0 keras-preprocessing-1.1.2 multiprocess-0.70.15 numpy-1.19.5 pathos-0.2.8 pox-0.3.3 ppft-1.7.6.7 six-1.15.0 tabulate-0.9.0 tensorflow-2.4.0 tensorflow-estimator-2.4.0 termcolor-1.1.0 typing-extensions-3.7.4.3 waymo-open-dataset-tf-2-4-0-1.4.1

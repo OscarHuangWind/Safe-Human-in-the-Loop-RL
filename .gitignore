@@ -1,0 +1,4 @@
+# ignore some directories
+store/
+trained_network/
+
