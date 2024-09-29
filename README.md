@@ -1,9 +1,10 @@
 # :tada: _T-ITS ACCEPTED!_ :confetti_ball:
-# Source Code Released!
-
-### [[**T-ITS**]](https://ieeexplore.ieee.org/document/10596046) | [[**arXiv**]](https://www.researchgate.net/publication/382212078_Safety-Aware_Human-in-the-Loop_Reinforcement_Learning_With_Shared_Control_for_Autonomous_Driving)
 
 # :page_with_curl: Safe Human-in-the-loop RL (SafeHiL-RL) with Shared Control for End-to-End Autonomous Driving
+
+# :fire: Source Code Released! :fire:
+
+## [[**T-ITS**]](https://ieeexplore.ieee.org/document/10596046) | [[**arXiv**]](https://www.researchgate.net/publication/382212078_Safety-Aware_Human-in-the-Loop_Reinforcement_Learning_With_Shared_Control_for_Autonomous_Driving)
 
 :dizzy: As a **_pioneering work considering guidance safety_** within the human-in-the-loop RL paradigm, this work introduces a :fire: **_curriculum guidance mechanism_** :fire: inspired by the pedagogical principle of whole-to-part patterns in human education, aiming to standardize the intervention process of human participants.
 
