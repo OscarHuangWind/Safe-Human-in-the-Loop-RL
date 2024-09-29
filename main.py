@@ -542,7 +542,7 @@ if __name__ == "__main__":
         config = yaml.load(f, Loader=yaml.FullLoader)
     
     ##### Individual parameters for each model ######
-    model = 'SaHiL'
+    model = 'SAC'
     mode_param = config[model]
     name = mode_param['name']
     POLICY_GUIDANCE = mode_param['POLICY_GUIDANCE']
